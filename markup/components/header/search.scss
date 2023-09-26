@@ -1,0 +1,30 @@
+.search {
+    position: relative;
+    &__input {
+        background-color: #fafafa;
+        color: $dark;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 500;
+        border: none;
+        border-radius: 36px;
+        width: 376px;
+        height: 66px;
+        padding-right: 72px;
+        padding-left: 30px;
+    }
+    &__loupa {
+        cursor: pointer;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        border: none;
+        background-color: rgba(126, 182, 147, 1);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 6px;
+        @include flex-center;
+        fill: #fff;
+    }
+}

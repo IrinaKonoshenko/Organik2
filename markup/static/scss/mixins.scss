@@ -12,7 +12,7 @@
     &:before,
     &:after {
         display: table;
-        content: "";
+        content: '';
     }
 
     &:after {
@@ -27,6 +27,12 @@
 @mixin blocks-justify {
     text-align: justify;
     text-justify: newspaper;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 // You can add your own mixins here:

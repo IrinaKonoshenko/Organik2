@@ -1,0 +1,11 @@
+.menu__list {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.menu__item {
+    color: $dark;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+}
