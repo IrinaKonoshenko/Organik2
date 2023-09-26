@@ -1,0 +1,70 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 35px;
+}
+h5 {
+    font-size: 30px;
+}
+h6 {
+    font-size: 25px;
+}
+
+p {
+    color: $dark-grey;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+ol li {
+    color: $dark-grey;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.6;
+    counter-increment: item;
+}
+
+ol li:before {
+    content: counter(item) '. ';
+    font-weight: 700;
+    color: $dark-grey;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+blockquote {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+    padding: 69px 59px;
+    border-radius: 30px;
+    background-color: #f1edea;
+    margin: 0;
+}
