@@ -68,3 +68,35 @@ blockquote {
     background-color: #f1edea;
     margin: 0;
 }
+
+.btn {
+    padding: 28px 39px;
+    border-radius: 16px;
+    color: $dark;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    &--yellow {
+        background-color: $yellow;
+    }
+    &--dark {
+        background-color: $dark;
+        color: #fff;
+    }
+    &--white {
+        background-color: transparent;
+    }
+    &--bordered {
+        border: 1px solid $dark;
+    }
+    &--inline {
+        display: inline-flex;
+        width: auto;
+    }
+}
