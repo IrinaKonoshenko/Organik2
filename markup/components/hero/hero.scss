@@ -1,0 +1,21 @@
+.hero {
+    background-image: url(../../static/img/content/background-image-page-one.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 228px;
+    padding-bottom: 246px;
+    &__block {
+        max-width: 530px;
+    }
+    &__txt {
+        color: #68a47f;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    &__title {
+        color: $dark;
+        margin: 0;
+        margin-bottom: 23px;
+    }
+}

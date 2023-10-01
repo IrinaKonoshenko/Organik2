@@ -82,6 +82,7 @@ blockquote {
     align-items: center;
     gap: 10px;
     width: 100%;
+    cursor: pointer;
     &--yellow {
         background-color: $yellow;
     }

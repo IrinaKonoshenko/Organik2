@@ -1,0 +1,53 @@
+.banners {
+    background-color: #fff;
+    padding-top: 144px;
+    padding-bottom: 190px;
+    &__block {
+        display: flex;
+        gap: 36px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__content {
+        border-radius: 30px;
+        padding-top: 109px;
+        padding-bottom: 110px;
+        padding-left: 54px;
+        padding-right: 54px;
+        width: calc(100% / 2 - 36px);
+    }
+    &__content--pink {
+        background-image: url(../../static/img/content/pink-food.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__content--grey {
+        background-image: url(../../static/img/content/grey-food.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &__wrapper {
+        max-width: 277px;
+    }
+    &__txt {
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__txt--white {
+        color: #fff;
+    }
+    &__txt--green {
+        color: $green;
+    }
+    &__text {
+        margin: 0;
+    }
+    &__text--white {
+        color: #fff;
+    }
+    &__text--dark {
+        color: $dark;
+    }
+}
