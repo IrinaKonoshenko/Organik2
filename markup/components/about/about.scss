@@ -7,4 +7,46 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 1067px;
+    &__content {
+        padding-left: 700px;
+        padding-top: 186px;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__description {
+        color: $dark;
+        margin: 0;
+        margin-top: 8px;
+    }
+    &__txt {
+        color: $dark-grey;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+        margin-top: 14px;
+    }
+    &__list {
+        margin-top: 46px;
+        margin-bottom: 46px;
+    }
+    &__item {
+        display: flex;
+        gap: 19px;
+    }
+
+    &__ttl {
+        color: $dark;
+        font-size: 25px;
+        font-weight: 800;
+    }
+    &__dsc {
+        margin-top: 7px;
+        color: $dark-grey;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
 }

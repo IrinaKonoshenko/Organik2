@@ -1,0 +1,29 @@
+.products {
+    &__list {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+.products-item {
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 315px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__footer {
+        padding: 17px 30px;
+    }
+    &__header {
+        padding: 30px;
+        padding-bottom: 15px;
+    }
+}
