@@ -1,5 +1,21 @@
 .products {
+    padding-top: 176px;
+    padding-bottom: 200px;
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+        text-align: center;
+    }
+    &__description {
+        margin-top: 8px;
+        color: $dark;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 800;
+    }
     &__list {
+        margin-top: 40px;
         display: flex;
         align-items: flex-start;
         flex-wrap: wrap;
@@ -8,6 +24,15 @@
 }
 
 .products-item {
+    background-color: #f9f8f8;
+    border-radius: 30px;
+    &__category {
+        border-radius: 8px;
+        background-color: $dark;
+        padding: 5px 12px;
+        color: #fff;
+        display: inline;
+    }
     &__img {
         display: flex;
         justify-content: center;
@@ -21,6 +46,19 @@
     }
     &__footer {
         padding: 17px 30px;
+    }
+    &__name {
+        color: $dark;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__name::after {
+        border-bottom: 1px solid $grey;
+    }
+    &__double {
+        margin-top: 6px;
+        display: flex;
+        gap: 81px;
     }
     &__header {
         padding: 30px;
