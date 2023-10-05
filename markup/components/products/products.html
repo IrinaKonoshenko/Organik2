@@ -1,10 +1,14 @@
-<div class="products">
+<section class="products">
     <div class="products__container container">
         <div class="products__title">Categories</div>
         <div class="products__description">Our Products</div>
         <ul class="products__list">
             {{> products/products-item-1}} {{> products/products-item-2}} {{> products/products-item-3}} {{>
-            products/products-item-4}}
+            products/products-item-4}} {{> products/products-item-1}} {{> products/products-item-2}} {{>
+            products/products-item-3}} {{> products/products-item-4}}
         </ul>
+        <div class="products__btn">
+            <button class="btn btn--dark btn--inline">Load More {{Icon iconName='arrow-right' }}</button>
+        </div>
     </div>
-</div>
+</section>

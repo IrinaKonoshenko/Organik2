@@ -101,3 +101,14 @@ blockquote {
         width: auto;
     }
 }
+.btn--yellow:hover,
+.btn--yellow:focus {
+    background-color: #9d8531;
+    transition: color 0.3 ease-in-out;
+}
+
+.btn--dark:hover,
+.btn--dark:focus {
+    background-color: #0b4e6a;
+    transition: color 0.3 ease-in-out;
+}

@@ -1,0 +1,95 @@
+.testimonial {
+    padding-top: 164px;
+    padding-bottom: 164px;
+    background-image: url(../../static/img/content/lemon-and-cinnamon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__reviews {
+        border-bottom: 1px solid #e0e0e0;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+        text-align: center;
+    }
+    &__description {
+        text-align: center;
+        margin: 0;
+        margin-top: 8px;
+    }
+    &__card {
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    &__stars {
+        margin-top: 20px;
+        display: flex;
+        gap: 3px;
+        fill: #ffa858;
+        justify-content: center;
+    }
+    &__txt {
+        color: $dark;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+        line-height: 1.65;
+    }
+    &__name {
+        margin-top: 20px;
+        color: $dark;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+    &__consumer {
+        color: $dark;
+        font-family: 'Open Sans';
+        font-size: 15px;
+        line-height: 1.65;
+        text-align: center;
+    }
+    &__navigation {
+        text-align: center;
+        margin-top: 19px;
+        margin-bottom: 102px;
+    }
+    &__numbers {
+        margin-top: 102px;
+    }
+    &__list {
+        display: flex;
+        gap: 62px;
+        justify-content: center;
+    }
+    &__item {
+        border: 4px solid $green;
+        width: 211px;
+        height: 211px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__number {
+        margin: 0;
+    }
+    &__text {
+        color: $dark;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.65;
+    }
+}

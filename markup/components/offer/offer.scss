@@ -1,29 +1,29 @@
-.products {
-    padding-top: 176px;
+.offer {
+    padding-top: 201px;
     padding-bottom: 200px;
+    background-color: $dark;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     &__title {
         color: $green;
         font-family: 'Yellowtail';
         font-size: 36px;
-        text-align: center;
     }
     &__description {
+        color: #fff;
+        margin: 0;
         margin-top: 8px;
-        color: $dark;
-        text-align: center;
-        font-size: 50px;
-        font-weight: 800;
     }
+
     &__list {
-        margin-top: 40px;
+        margin-top: 50px;
         display: flex;
         align-items: flex-start;
         flex-wrap: wrap;
         gap: 20px;
-    }
-    &__btn {
-        text-align: center;
-        margin-top: 122px;
     }
 }
 
