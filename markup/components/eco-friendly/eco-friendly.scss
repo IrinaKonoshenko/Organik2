@@ -1,0 +1,56 @@
+.eco-friendly {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    &__container {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__img {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+        }
+    }
+    &__content {
+        padding-top: 78px;
+        padding-left: 89px;
+        padding-bottom: 77px;
+        border-radius: 30px;
+        background-color: #fff;
+        width: 790px;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 8px;
+    }
+    &__txt {
+        padding-top: 35px;
+        color: $dark;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    &__text {
+        padding-top: 8px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+}
