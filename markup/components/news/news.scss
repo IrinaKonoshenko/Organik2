@@ -1,0 +1,86 @@
+.news {
+    padding-top: 177px;
+    padding-bottom: 185px;
+    background-color: #fff;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 8px;
+    }
+    &__list {
+        margin-top: 45px;
+        display: flex;
+        gap: 46px;
+    }
+    &__item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 137px;
+        padding: 43px 32px;
+        padding-bottom: 0;
+    }
+    &__data {
+        background-color: #fff;
+        color: $dark;
+        font-size: 20px;
+        font-weight: 800;
+        border-radius: 50px;
+        text-align: center;
+        width: 82px;
+        height: 82px;
+        overflow: hidden;
+        z-index: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+    }
+    &__block {
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+        padding: 46px 57px 60px;
+        border-radius: 31px 34px 30px 30px;
+        box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+        margin-bottom: -60px;
+    }
+    &__man {
+        color: $dark;
+        font-size: 18px;
+    }
+    &__txt {
+        margin: 0;
+        margin-top: 15px;
+    }
+    &__text {
+        margin-top: 2px;
+        color: $dark;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    &__button {
+        margin-top: 15px;
+    }
+}

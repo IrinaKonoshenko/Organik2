@@ -30,9 +30,12 @@
 .products-item {
     background-color: #f9f8f8;
     border-radius: 30px;
+    transition: box-shadow ease-in-out 0.3s;
     &__header {
         padding: 30px;
         padding-bottom: 15px;
+        position: relative;
+        z-index: 2;
     }
     &__category {
         border-radius: 8px;
@@ -47,6 +50,9 @@
         align-items: center;
         overflow: hidden;
         height: 315px;
+        position: relative;
+        z-index: 1;
+        transition: transform 0.3s ease-in-out;
         img {
             width: 100%;
             height: auto;
@@ -89,5 +95,11 @@
         display: flex;
         gap: 3px;
         fill: #ffa858;
+    }
+    &:hover {
+        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+    }
+    &:hover &__img {
+        transform: translateY(-20px);
     }
 }

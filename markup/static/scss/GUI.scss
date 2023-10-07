@@ -83,15 +83,25 @@ blockquote {
     gap: 10px;
     width: 100%;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
     &--yellow {
         background-color: $yellow;
+        &:hover {
+            background-color: #9d8531;
+        }
     }
     &--dark {
         background-color: $dark;
         color: #fff;
+        &:hover {
+            background-color: $green;
+        }
     }
     &--white {
         background-color: transparent;
+        &:hover {
+            background-color: $yellow;
+        }
     }
     &--bordered {
         border: 1px solid $dark;
@@ -100,15 +110,4 @@ blockquote {
         display: inline-flex;
         width: auto;
     }
-}
-.btn--yellow:hover,
-.btn--yellow:focus {
-    background-color: #9d8531;
-    transition: color 0.3 ease-in-out;
-}
-
-.btn--dark:hover,
-.btn--dark:focus {
-    background-color: #0b4e6a;
-    transition: color 0.3 ease-in-out;
 }
