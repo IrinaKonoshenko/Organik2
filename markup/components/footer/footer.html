@@ -1,1 +1,25 @@
-<div class="footer"></div>
+<section class="footer">
+    <div class="footer__container container">
+        <div class="footer__content">
+            <div class="footer__item">
+                <div class="footer__title">Contact Us</div>
+                {{> footer/contacts}}
+            </div>
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="../../static/img/content/logotip.png" alt="" />
+                </div>
+                <div class="footer__description">
+                    Simply dummy text of the printing and typesetting industry. <br />
+                    Lorem Ipsum simply dummy text of the printing
+                </div>
+                {{> footer/socials}}
+            </div>
+            <div class="footer__item">
+                <div class="footer__title">Utility Pages</div>
+                <div class="footer__navigation">{{> footer/navigation}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__copyr">{{> footer/copyr}}</div>
+</section>
