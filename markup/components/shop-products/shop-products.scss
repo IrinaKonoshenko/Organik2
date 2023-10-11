@@ -1,0 +1,8 @@
+.shop-products {
+    margin-top: 90px;
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

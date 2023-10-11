@@ -1,0 +1,17 @@
+.shop-hero {
+    background-image: url(../../static/img/content/background-image-page-three.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 184px;
+    padding-bottom: 184px;
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        color: $dark;
+        margin: 0;
+    }
+}

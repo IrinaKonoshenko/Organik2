@@ -1,0 +1,52 @@
+.about-about {
+    padding-top: 209px;
+    padding-bottom: 143px;
+    position: relative;
+    &__bg {
+        position: absolute;
+        right: 48.8%;
+        top: 68px;
+        width: 976px;
+        height: 929px;
+        z-index: -1;
+    }
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__content {
+        width: 672px;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__description {
+        color: $dark;
+        margin: 0;
+        margin-top: 8px;
+    }
+    &__txt {
+        margin-top: 14px;
+        color: $dark-grey;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    &__list {
+        margin-top: 49px;
+        margin-bottom: 58px;
+        display: flex;
+        gap: 65px;
+    }
+    &__item {
+        display: flex;
+        gap: 15px;
+    }
+    &__text {
+        color: $dark;
+        font-size: 25px;
+        font-weight: 500;
+    }
+}

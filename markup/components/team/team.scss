@@ -1,0 +1,58 @@
+.team {
+    padding-top: 177px;
+    padding-bottom: 202px;
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+        text-align: center;
+    }
+    &__description {
+        margin: 0;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 16px;
+        font-family: 'Open Sans';
+        color: $dark-grey;
+        font-size: 18px;
+        line-height: 1.65;
+        text-align: center;
+    }
+    &__list {
+        margin-top: 42px;
+        display: flex;
+        gap: 27px;
+    }
+    &__item {
+        background-color: #f9f8f8;
+        border-radius: 30px;
+        overflow: hidden;
+        &:hover {
+            background-color: #fff;
+            box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
+        }
+    }
+    &__block {
+        margin: 35px 28px 34px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__name {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    &__profession {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 22px;
+        margin-top: 2px;
+    }
+    &__socials--list {
+        display: flex;
+        gap: 17px;
+        justify-content: end;
+        align-items: end;
+    }
+}
