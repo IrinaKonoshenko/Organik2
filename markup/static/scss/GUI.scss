@@ -103,6 +103,13 @@ blockquote {
             background-color: $yellow;
         }
     }
+    &--light {
+        background-color: $light-green;
+        &:hover {
+            background-color: $green;
+            border: 1px solid #000;
+        }
+    }
     &--bordered {
         border: 1px solid $dark;
     }

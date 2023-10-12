@@ -1,0 +1,107 @@
+.single-health {
+    padding-top: 133px;
+    &__blocks {
+        display: flex;
+        gap: 83px;
+    }
+    &__block {
+        position: relative;
+    }
+    &__tag {
+        position: absolute;
+        top: 38px;
+        left: 35px;
+        z-index: 1;
+        background-color: $dark;
+        border-radius: 8px;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-size: 15px;
+        font-weight: 600;
+        padding: 5px 12px;
+    }
+
+    &__content {
+        margin-top: 106px;
+    }
+    &__title {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    &__stars {
+        margin-top: 9px;
+    }
+    &__list {
+        display: flex;
+        gap: 3px;
+        fill: #ffa858;
+    }
+    &__price {
+        margin-top: 9px;
+        display: flex;
+        gap: 9px;
+        align-items: center;
+    }
+    &__sale {
+        color: #b8b8b8;
+        font-family: 'Open Sans';
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 4px;
+        text-decoration: line-through;
+    }
+    &__current {
+        font-family: 'Open Sans';
+        font-size: 25px;
+        font-weight: 700;
+    }
+    &__text {
+        margin-top: 27px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    &__form {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+    &__quantity {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__number {
+        border-radius: 16px;
+        padding: 28px 28px;
+        border: 2px solid #274c5b;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__wrapper {
+        margin-top: 90px;
+    }
+    &__buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    &__txt {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+        max-width: 1137px;
+        margin: 0 auto;
+        margin-top: 27px;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 140px;
+        text-align: center;
+    }
+    &__cnt {
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+    }
+}
