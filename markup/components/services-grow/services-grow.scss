@@ -1,0 +1,64 @@
+.services-grow {
+    margin-top: 202px;
+
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+        text-align: center;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 6px;
+        text-align: center;
+    }
+    &__content {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    &__block {
+        &--one,
+        &--two {
+            padding-bottom: 181px;
+            position: relative;
+            z-index: 2;
+        }
+        &--one {
+            text-align: end;
+        }
+        &--two {
+            text-align: start;
+        }
+        &--img {
+            width: 605px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 39px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    &__txt {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    &__text {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    &__btn {
+        text-align: center;
+        margin-top: -40px;
+    }
+}

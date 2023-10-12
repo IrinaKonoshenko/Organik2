@@ -1,0 +1,35 @@
+.services-flowers {
+    margin-top: 153px;
+    padding-top: 179px;
+    padding-bottom: 538px;
+    background-image: url(../../static/img/content/flowers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__content {
+        margin: 0 auto;
+        max-width: 671px;
+        text-align: center;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__description {
+        margin: 0;
+        margin-top: 7px;
+    }
+    &__txt {
+        margin-top: 24px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    &__btn {
+        margin-top: 50px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}
