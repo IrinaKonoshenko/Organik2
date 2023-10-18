@@ -1,6 +1,5 @@
 .team {
-    padding-top: 177px;
-    padding-bottom: 202px;
+    padding-top: 150px;
     &__title {
         color: $green;
         font-family: 'Yellowtail';
@@ -22,12 +21,14 @@
     &__list {
         margin-top: 42px;
         display: flex;
+        flex-wrap: wrap;
         gap: 27px;
     }
     &__item {
         background-color: #f9f8f8;
         border-radius: 30px;
         overflow: hidden;
+        width: calc(100% / 3 - 27px + 27px / 3);
         &:hover {
             background-color: #fff;
             box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);

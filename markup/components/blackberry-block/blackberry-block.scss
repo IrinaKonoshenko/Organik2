@@ -1,0 +1,26 @@
+.blackberry-block {
+    padding-top: 38px;
+    max-width: 936px;
+    margin: 0 auto;
+
+    &__title {
+        margin: 0;
+        margin-top: 30px;
+    }
+    &__txt {
+        margin-top: 24px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    &__img {
+        margin-top: 40px;
+    }
+    &__text {
+        margin-top: 19px;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+}
