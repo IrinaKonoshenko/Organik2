@@ -19,7 +19,8 @@
     &__list {
         margin-top: 45px;
         display: flex;
-        gap: 46px;
+        gap: 115px 46px;
+        flex-wrap: wrap;
     }
     &__item {
         position: relative;
@@ -27,6 +28,7 @@
         flex-direction: column;
         gap: 137px;
         padding: 43px 32px;
+        width: calc(100% / 2 - 46px + 46px / 2);
         padding-bottom: 0;
     }
     &__data {
