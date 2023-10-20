@@ -1,0 +1,28 @@
+.not-found-hero {
+    background-image: url(../../static/img/content/background-image-page-thirteen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 898px;
+    position: relative;
+    &__block {
+        position: absolute;
+        top: 214px;
+        right: 260px;
+        bottom: 214px;
+    }
+    &__title {
+        color: $dark;
+        margin: 0;
+    }
+    &__txt {
+        margin-top: 9px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+        font-weight: 600;
+    }
+    &__btn {
+        margin-top: 36px;
+    }
+}

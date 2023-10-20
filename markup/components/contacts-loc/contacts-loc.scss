@@ -1,0 +1,62 @@
+.contacts-loc {
+    margin-top: 98px;
+    &__content {
+        background-image: url(../../static/img/content/green-block.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        overflow: hidden;
+        position: relative;
+        height: 758px;
+    }
+    &__block {
+        background-color: #fff;
+        padding: 46px 53px;
+        position: absolute;
+        top: 122px;
+        right: 108px;
+        bottom: 122px;
+        border-radius: 30px;
+    }
+    &__title {
+        color: $green;
+        font-family: 'Yellowtail';
+        font-size: 36px;
+    }
+    &__description {
+        margin: 0;
+    }
+    &__txt {
+        margin-top: 10px;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+        max-width: 408px;
+    }
+    &__list {
+        margin-top: 19px;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+    }
+    &__item {
+        display: flex;
+        gap: 6px;
+    }
+    &__add {
+        max-width: 256px;
+    }
+    &__address {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.65;
+    }
+    &__city {
+        font-weight: 400;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 1.65;
+    }
+}
