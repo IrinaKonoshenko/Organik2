@@ -43,6 +43,13 @@
     &__item {
         display: flex;
         gap: 6px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        transition: gap ease-in-out 0.3s, border-color ease-in-out 0.3s;
+        &:hover {
+            gap: 10px;
+            border-color: $green;
+        }
     }
     &__add {
         max-width: 256px;

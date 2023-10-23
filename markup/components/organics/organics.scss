@@ -40,5 +40,10 @@
         border-radius: 20px;
         top: 244px;
         left: 146px;
+        border: 3px solid transparent;
+        transition: border-color ease-in-out 0.3s;
+        &:hover {
+            border-color: $green;
+        }
     }
 }

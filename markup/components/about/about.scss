@@ -31,12 +31,26 @@
     &__list {
         margin-top: 46px;
         margin-bottom: 46px;
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
     }
     &__item {
         display: flex;
         gap: 19px;
+        border: 1px solid transparent;
+        border-radius: 20px;
+        transition: gap ease-in-out 0.3s, border-color ease-in-out 0.3s;
+        &:hover {
+            gap: 30px;
+            border-color: $green;
+        }
     }
-
+    &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     &__ttl {
         color: $dark;
         font-size: 25px;

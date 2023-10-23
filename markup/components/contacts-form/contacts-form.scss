@@ -24,6 +24,10 @@
         border-radius: 16px;
         border: 1px solid #7eb693;
         background-color: #fff;
+        transition: border-color ease-in-out 0.3s;
+        &:hover {
+            border-color: $dark;
+        }
         &::placeholder {
             color: #ababab;
             font-size: 18px;
@@ -38,6 +42,10 @@
         border-radius: 16px;
         border: 1px solid #7eb693;
         background-color: #fff;
+        transition: border-color ease-in-out 0.3s;
+        &:hover {
+            border-color: $dark;
+        }
         &::placeholder {
             color: #ababab;
             font-size: 18px;

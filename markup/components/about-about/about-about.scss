@@ -43,6 +43,13 @@
     &__item {
         display: flex;
         gap: 15px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        transition: gap ease-in-out 0.3s, border-color ease-in-out 0.3s;
+        &:hover {
+            gap: 20px;
+            border-color: $green;
+        }
     }
     &__text {
         color: $dark;

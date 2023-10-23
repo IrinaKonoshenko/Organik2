@@ -38,6 +38,11 @@
         gap: 19px;
         padding: 11px 12px;
         max-width: 352px;
+        transition: gap ease-in-out 0.3s, border-color ease-in-out 0.3s;
+        &:hover {
+            gap: 25px;
+            border-color: $green;
+        }
     }
     &__text {
         display: flex;
@@ -55,5 +60,6 @@
     &__social {
         display: flex;
         justify-content: start;
+        margin-top: 34px;
     }
 }
