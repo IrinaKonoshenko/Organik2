@@ -25,6 +25,15 @@
         flex-wrap: wrap;
         gap: 20px;
     }
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+        &__content {
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            text-align: center;
+        }
+    }
 }
 
 .products-item {

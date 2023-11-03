@@ -19,4 +19,11 @@
         margin: 0;
         margin-bottom: 23px;
     }
+
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+        &__title {
+            font-size: 50px;
+        }
+    }
 }

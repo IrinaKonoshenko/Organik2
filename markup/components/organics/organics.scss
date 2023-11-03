@@ -1,6 +1,6 @@
 .organics {
     background-color: #f1f8f4;
-    padding: 187px 0 187px 0;
+    padding: 187px 0;
     &__list {
         display: flex;
         gap: 38px;
@@ -12,9 +12,8 @@
         height: 583px;
     }
     a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        height: 100%;
     }
     &__img {
         overflow: hidden;
@@ -34,16 +33,42 @@
         color: $dark;
         font-size: 25px;
         font-weight: 500;
-        padding: 33px 83px;
         background-color: #fff;
         display: inline;
         border-radius: 20px;
-        top: 244px;
-        left: 146px;
+        padding: 33px 83px;
+        text-align: center;
+        white-space: nowrap;
         border: 3px solid transparent;
         transition: border-color ease-in-out 0.3s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         &:hover {
             border-color: $green;
+        }
+    }
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+        &__list {
+            gap: 20px;
+        }
+        &__item {
+            width: calc(100% / 3 - 10px);
+            height: 440px;
+        }
+        &__img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__txt {
+            padding: 15px 40px;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        &__item {
+            height: 300px;
         }
     }
 }

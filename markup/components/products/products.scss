@@ -25,6 +25,12 @@
         text-align: center;
         margin-top: 122px;
     }
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+        &__btn {
+            margin-top: 60px;
+        }
+    }
 }
 
 .products-item {
@@ -101,5 +107,8 @@
     }
     &:hover &__img {
         transform: translateY(-20px);
+    }
+    @media only screen and (max-width: $laptop) {
+        width: calc(100% / 2 - 20px + 20px / 2);
     }
 }

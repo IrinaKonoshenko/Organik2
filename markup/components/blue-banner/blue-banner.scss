@@ -15,10 +15,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        img {
-            width: 100%;
-            height: auto;
-        }
+        background-size: cover;
     }
     &__content {
         padding: 105px 70px;
@@ -57,6 +54,24 @@
             &::placeholder {
                 color: #ababab;
             }
+        }
+    }
+    @media only screen and (max-width: $laptop) {
+        padding-top: 70px;
+        &__container {
+            position: relative;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+        &__content {
+            padding: 40px 30px;
+        }
+        &__txt {
+            font-size: 25px;
+        }
+        &__input {
+            height: 79px;
+            width: 250px;
         }
     }
 }

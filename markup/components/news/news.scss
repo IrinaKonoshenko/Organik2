@@ -85,4 +85,32 @@
     &__button {
         margin-top: 15px;
     }
+    @media only screen and (max-width: $laptop) {
+        padding-top: 50px;
+        &__content {
+            flex-wrap: wrap;
+        }
+        &__description {
+            font-size: 25px;
+        }
+        &__list {
+            margin-top: 25px;
+        }
+        &__item {
+            height: 500px;
+        }
+        &__block {
+            padding: 30px 37px;
+            margin-bottom: -40px;
+            text-align: center;
+        }
+        &__txt {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        &__text {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
 }

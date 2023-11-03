@@ -37,6 +37,24 @@
     &__socials {
         margin-top: 49px;
     }
+    @media only screen and (max-width: $laptop) {
+        margin-top: 60px;
+        &__content {
+            flex-direction: column-reverse;
+            gap: 50px;
+        }
+        &__item {
+            padding: 0;
+            &:first-child,
+            &:last-child {
+                text-align: center;
+            }
+            &:nth-child(2) {
+                width: 100%;
+                border: none;
+            }
+        }
+    }
 }
 
 .socials {
@@ -67,6 +85,9 @@
         line-height: 1.65;
         text-align: center;
     }
+    @media only screen and (max-width: $laptop) {
+        margin-top: 40px;
+    }
 }
 .navigation {
     &__list {
@@ -77,6 +98,14 @@
         font-family: 'Open Sans';
         font-size: 18px;
         line-height: 2.72;
+    }
+    @media only screen and (max-width: $laptop) {
+        &__list {
+            margin-top: 16px;
+        }
+        &__link {
+            line-height: 1.72;
+        }
     }
 }
 .contacts {
@@ -98,5 +127,11 @@
         font-family: 'Open Sans';
         font-size: 18px;
         line-height: 1.65;
+    }
+    @media only screen and (max-width: $laptop) {
+        &__list {
+            margin-top: 16px;
+            gap: 18px;
+        }
     }
 }

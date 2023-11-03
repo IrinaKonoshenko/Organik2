@@ -29,4 +29,7 @@ input {
     width: 1400px;
     margin: 0 auto;
     max-width: 100%;
+    @media only screen and (max-width: $laptop) {
+        width: 767px;
+    }
 }

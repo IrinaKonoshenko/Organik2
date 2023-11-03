@@ -107,4 +107,24 @@
         font-weight: 600;
         line-height: 1.65;
     }
+    @media only screen and (max-width: $laptop) {
+        padding: 80px 0;
+        &__title {
+            font-size: 26px;
+        }
+        &__description {
+            font-size: 40px;
+        }
+        &__numbers {
+            margin-top: 72px;
+        }
+        &__list {
+            gap: 12px;
+        }
+        &__item {
+            border: 2px solid $green;
+            width: 180px;
+            height: 180px;
+        }
+    }
 }
