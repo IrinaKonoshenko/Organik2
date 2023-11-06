@@ -15,4 +15,7 @@
         color: $dark;
         margin: 0;
     }
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+    }
 }

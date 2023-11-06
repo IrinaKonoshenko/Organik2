@@ -56,4 +56,15 @@
         font-size: 25px;
         font-weight: 500;
     }
+    @media only screen and (max-width: $laptop) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        &__bg {
+            display: none;
+        }
+        &__container {
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }

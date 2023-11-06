@@ -19,4 +19,15 @@
         display: flex;
         gap: 21px;
     }
+    @media only screen and (max-width: $laptop) {
+        margin-top: 100px;
+        padding: 50px;
+        &__title {
+            font-size: 26px;
+        }
+        &__list {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
 }

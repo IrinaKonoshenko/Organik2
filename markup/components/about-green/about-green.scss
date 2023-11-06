@@ -58,7 +58,6 @@
         justify-content: center;
     }
     &__item {
-        margin-top: 91px;
         background-color: #fff;
         border-radius: 30px;
         max-width: 257px;
@@ -72,9 +71,8 @@
         }
     }
     &__advantage {
+        margin: 0;
         margin-top: 15px;
-        font-size: 25px;
-        font-weight: 800;
     }
     &__details {
         margin-top: 12px;
@@ -82,5 +80,27 @@
         font-family: 'Open Sans';
         font-size: 18px;
         line-height: 1.65;
+    }
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+        &__title {
+            font-size: 26px;
+        }
+        &__txt {
+            margin-left: 10px;
+        }
+        &__list {
+            margin-top: 51px;
+            gap: 15px;
+        }
+        &__item {
+            padding-top: 25px;
+        }
+        &__details {
+            font-size: 14px;
+        }
+        &__block {
+            flex-direction: column;
+        }
     }
 }

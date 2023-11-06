@@ -5,4 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    @media only screen and (max-width: $laptop) {
+        padding: 100px 0;
+    }
 }
