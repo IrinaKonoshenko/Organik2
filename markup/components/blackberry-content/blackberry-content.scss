@@ -10,6 +10,12 @@
         justify-content: space-between;
         overflow: hidden;
     }
+    @media only screen and (max-width: $laptop) {
+        &__block {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
 }
 .left {
     padding: 97px 82px;
@@ -21,6 +27,15 @@
         font-family: 'Open Sans';
         font-size: 18px;
         line-height: 1.65;
+    }
+    @media only screen and (max-width: $laptop) {
+        padding: 40px 50px;
+        &__title {
+            text-align: center;
+        }
+        &__description {
+            font-size: 16px;
+        }
     }
 }
 .right {
@@ -54,6 +69,12 @@
                 transform: translateY(-55%);
                 content: ':';
             }
+        }
+    }
+    @media only screen and (max-width: $laptop) {
+        padding: 36px 0;
+        &__list {
+            align-items: center;
         }
     }
 }

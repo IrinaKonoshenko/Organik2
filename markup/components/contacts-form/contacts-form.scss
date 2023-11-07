@@ -57,4 +57,12 @@
         display: flex;
         justify-content: start;
     }
+    @media only screen and (max-width: $laptop) {
+        &__block {
+            justify-content: center;
+        }
+        &__txa {
+            width: 784px;
+        }
+    }
 }
