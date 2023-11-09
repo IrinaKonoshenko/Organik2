@@ -88,4 +88,14 @@
         font-size: 25px;
         font-weight: 600;
     }
+    @media only screen and (max-width: $laptop) {
+        margin-top: 100px;
+        &__img {
+            display: none;
+        }
+        &__number {
+            width: 65px;
+            height: 55px;
+        }
+    }
 }

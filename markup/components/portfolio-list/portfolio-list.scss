@@ -43,4 +43,15 @@
         font-family: 'Yellowtail';
         font-size: 22px;
     }
+    @media only screen and (max-width: $laptop) {
+        margin-top: 100px;
+        &__item {
+            width: calc(100% / 2 - 24px + 24px / 2);
+        }
+        &__img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
