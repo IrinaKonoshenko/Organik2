@@ -23,4 +23,36 @@
             gap: 30px;
         }
     }
+    @media only screen and (max-width: $mobile) {
+        &__container {
+            gap: 15px;
+        }
+        &__right-block {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}
+.header-mobile {
+    display: none;
+    @media only screen and (max-width: $mobile) {
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        width: 48px;
+        height: 48px;
+        background-color: $dark;
+        flex-direction: column;
+        gap: 3px;
+        justify-content: center;
+        align-items: center;
+        &__line {
+            width: 60%;
+            height: 3px;
+            border-radius: 3px;
+            background-color: #fff;
+        }
+    }
 }

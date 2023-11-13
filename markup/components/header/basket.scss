@@ -25,4 +25,14 @@
         font-size: 18px;
         font-weight: 700;
     }
+    @media only screen and (max-width: $mobile) {
+        &__circle {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+        &__txt {
+            font-size: 12px;
+        }
+    }
 }

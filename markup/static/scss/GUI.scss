@@ -146,4 +146,13 @@ blockquote {
         display: inline-flex;
         width: auto;
     }
+    @media only screen and (max-width: $mobile) {
+        padding: 20px 22px;
+        font-size: 15px;
+    }
+}
+section {
+    @media only screen and (max-width: $mobile) {
+        overflow: hidden;
+    }
 }

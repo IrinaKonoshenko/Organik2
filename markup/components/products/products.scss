@@ -31,6 +31,21 @@
             margin-top: 60px;
         }
     }
+    @media only screen and (max-width: $mobile) {
+        padding: 30px 0;
+        &__title {
+            font-size: 25px;
+        }
+        &__description {
+            font-size: 42px;
+        }
+        &__list {
+            flex-direction: column;
+        }
+        &__btn {
+            margin-top: 20px;
+        }
+    }
 }
 
 .products-item {
@@ -110,5 +125,8 @@
     }
     @media only screen and (max-width: $laptop) {
         width: calc(100% / 2 - 20px + 20px / 2);
+    }
+    @media only screen and (max-width: $mobile) {
+        width: 100%;
     }
 }
