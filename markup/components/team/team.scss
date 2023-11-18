@@ -87,4 +87,23 @@
             align-items: center;
         }
     }
+    @media only screen and (max-width: $mobile) {
+        padding: 50px 15px;
+        &__title {
+            font-size: 24px;
+        }
+        &__description {
+            font-size: 24px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+        &__list {
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        &__item {
+            width: 100%;
+        }
+    }
 }

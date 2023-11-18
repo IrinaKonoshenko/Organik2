@@ -8,7 +8,7 @@
         font-size: 36px;
         text-align: center;
     }
-    &__descriotion {
+    &__description {
         margin: 0;
         color: #fff;
         margin-top: 8px;
@@ -28,6 +28,16 @@
         &__list {
             flex-wrap: wrap;
             gap: 20px;
+        }
+    }
+    @media only screen and (max-width: $mobile) {
+        margin-top: 0;
+        padding: 50px 15px;
+        &__title {
+            font-size: 24px;
+        }
+        &__description {
+            font-size: 24px;
         }
     }
 }
