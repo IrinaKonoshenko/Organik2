@@ -73,4 +73,13 @@
             display: none;
         }
     }
+    @media only screen and (max-width: $mobile) {
+        padding: 50px 15px;
+        &__title {
+            font-size: 24px;
+        }
+        &__txt {
+            font-size: 14px;
+        }
+    }
 }

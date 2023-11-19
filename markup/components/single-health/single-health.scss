@@ -140,4 +140,25 @@
             flex-wrap: wrap;
         }
     }
+    @media only screen and (max-width: $mobile) {
+        margin: 0;
+        padding: 50px 15px;
+        &__img {
+            max-width: 371px;
+            max-height: 463px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+        &__txt {
+            font-size: 14px;
+        }
+    }
 }

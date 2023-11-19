@@ -69,4 +69,25 @@
     @media only screen and (max-width: $laptop) {
         margin-top: 58px;
     }
+    @media only screen and (max-width: $mobile) {
+        margin: 0;
+        padding: 50px 15px;
+        &__block {
+            padding: 46px 53px;
+            top: 32px;
+            right: 18px;
+            left: 18px;
+            bottom: 32px;
+        }
+        &__title {
+            font-size: 24px;
+        }
+        &__description {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        &__list {
+            margin-top: 25px;
+        }
+    }
 }
